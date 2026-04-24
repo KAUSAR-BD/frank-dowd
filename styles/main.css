@@ -151,4 +151,9 @@ section #my-work {
   width: 100%;
   object-fit: cover;
   aspect-ratio: 3 / 2;
+  transition: 100ms ease;
+}
+
+.grid-img-container img:hover{
+  scale: 1.05;
 }
