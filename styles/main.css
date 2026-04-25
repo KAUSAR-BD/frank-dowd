@@ -154,6 +154,21 @@ section #my-work {
   transition: 100ms ease;
 }
 
-.grid-img-container img:hover{
+.grid-img-container img:hover {
   scale: 1.05;
+}
+
+details {
+  margin-top: 1em;
+  background-color: var(--base-color);
+  border-radius: 1em;
+}
+
+details summary {
+  padding: 1em;
+  font-size: 1.7rem;
+}
+
+details p {
+  padding: 0 2em 2em 2em;
 }
