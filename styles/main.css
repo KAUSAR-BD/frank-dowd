@@ -187,3 +187,23 @@ footer a{
 footer a:hover{
   text-decoration: underline;
 }
+
+/* respnosive */
+@media(max-width: 988px){
+  header{
+    text-align: center;
+  }
+  header .text-container{
+    padding: 0;
+  }
+}
+
+@media(max-width: 640px){
+  nav li{
+    display: none;
+  }
+  nav li:first-child, 
+  nav li:last-child{
+    display: block;
+  }
+}
