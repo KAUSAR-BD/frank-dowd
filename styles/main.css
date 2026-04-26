@@ -173,47 +173,57 @@ details p {
   padding: 0 2em 2em 2em;
 }
 
-footer{
+footer {
   padding-bottom: 1.5em;
   text-align: center;
 }
 
-footer a{
+footer a {
   margin: 0 1em;
   text-decoration: none;
   color: var(--text-color);
 }
 
-footer a:hover{
+footer a:hover {
   text-decoration: underline;
 }
 
 /* respnosive */
-@media(max-width: 988px){
-  header{
+@media (max-width: 988px) {
+  header {
     text-align: center;
   }
-  header .text-container{
+  header .text-container {
     padding: 0;
   }
 }
 
-@media(max-width: 640px){
-  nav li{
+@media (max-width: 640px) {
+  nav li {
     display: none;
   }
-  nav li:first-child, 
-  nav li:last-child{
+  nav li:first-child,
+  nav li:last-child {
     display: block;
   }
 
-  header{
+  header {
     margin-top: 0;
   }
 
-  .cta-button{
+  .cta-button {
     margin-top: 0.5em;
     width: 100%;
   }
-  
+
+  .grid-img-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .text-container p {
+    font-size: 1em;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
 }
