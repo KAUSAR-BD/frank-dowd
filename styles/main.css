@@ -206,4 +206,14 @@ footer a:hover{
   nav li:last-child{
     display: block;
   }
+
+  header{
+    margin-top: 0;
+  }
+
+  .cta-button{
+    margin-top: 0.5em;
+    width: 100%;
+  }
+  
 }
